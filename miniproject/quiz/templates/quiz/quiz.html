@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'quiz/style.css' %}">
+
+</head>
+<body> <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>Go to quiz</h1>
+    <form method="post" action="{% url 'quiz:quiz_home' %}">
+        {% csrf_token %}
+        <div class="center-button-container">
+        <br>
+        <button class="center-button">Click me</button>
+    </div>
+</form>
+         
+    
+</body>
+</html>

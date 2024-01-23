@@ -1,0 +1,61 @@
+
+body {
+    background-image: url('/static/img/back.jpg'); 
+    background-size: cover;
+    font-size: larger;
+    color: aliceblue;
+   
+     
+}
+
+h1 {
+    color: rgb(213, 213, 224);
+    text-align: center;
+}
+
+
+
+
+.styled-button {
+    background-color: #4CAF50;
+    color: white; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px; 
+}
+
+
+.styled-button:hover {
+    background-color: #45a049; 
+}
+
+.container{
+    text-align: center;
+}
+
+.center-button-container {
+    text-align: center;
+}
+
+.center-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
